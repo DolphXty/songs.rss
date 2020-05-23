@@ -21,7 +21,6 @@ for child in stuff:
     rsssongs.append(dicd)
    
     count += 1
-
 songs={"songs":rsssongs}
 
 with open("songs.json", "w") as write_file:
